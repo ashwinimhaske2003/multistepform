@@ -1,0 +1,63 @@
+/* src/components/FormPages/PersonalDetails.css */
+.container {
+    max-width: 600px;
+    font-family: cursive;
+    
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2{
+    position: center;
+  }
+  input[type='text'],
+  input[type='number'],
+  input[type='email'],
+  input[type='tel'],
+  input[type='file'],
+  select {
+    width: 100%;
+    font-family: cursive;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: italic; /* Set font family to italic */
+  }
+  
+  button {
+    background-color: #6a417f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: cursive; /* Set font family to italic */
+  }
+  
+  button:hover {
+    background-color: #c7484a;
+  }
+  
+  /* Style for the gender part */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: cursive; /* Set font family to italic */
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: cursive; /* Set font family to italic */
+  }
+  
+  /* Background image for the body */
+
+  
